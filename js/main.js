@@ -47,7 +47,8 @@ for (var i = 0; i < btns.length; i++) {
 }
 
 const counter50 = document.getElementById("counter50");
-
+const counterBtn = document.querySelectorAll(".btnn");
+let result50 = 0;
 
 counterBtn.forEach((el, index) => {
     el.addEventListener('click', () => {
@@ -60,5 +61,3 @@ counterBtn.forEach((el, index) => {
         total = counter50.textContent * 50;
     });
 });
-
-window.Telegram.WebApp()

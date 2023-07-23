@@ -10,13 +10,20 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<div class="logo"><img src="src/nezavod_logo.svg" alt=""></div>
 <!-- Control buttons -->
 <div id="myBtnContainer">
+    <div class="first-row">
     <button class="btn1 active" onclick="filterSelection('all')">ВСЕ</button>
     <button class="btn1" onclick="filterSelection('xylinet')">XYLINET?</button>
     <button class="btn1" onclick="filterSelection('achonet')">АЧОНЕТ</button>
     <button class="btn1" onclick="filterSelection('ma')">МА</button>
-    <button class="btn1" onclick="filterSelection('titans')">ЯРОСТЬ ТИТАНОВ</button>
+    </div>
+    <div class="second-row">
+    <button class="btn1" onclick="filterSelection('all')">ЯРОСТЬ ТИТАНОВ</button>
+    <button class="btn1" onclick="filterSelection('xylinet')">ПРОСТО/НЕПРОСТО</button>
+    <button class="btn1" onclick="filterSelection('achonet')">XYLINET <span class="cold">COLD</span></button>
+    </div>
 </div>
 
 <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
@@ -24,77 +31,108 @@
     <div class="blocks">
     <div class="filterDiv xylinet">
         <img src="src/xylinecoldananac.png" alt="">
+        <div class="btns">
         <button class="btnn minus">-</button>
-        <b id="counter50">0</b>
+        <p id="counter50">0</p>
         <button class="btnn plus">+</button>
+        </div>
     </div>
     <div class="filterDiv xylinet">
         <img src="src/xylinecoldcherrylime.png" alt="">
-        <div class="agormleniye_kunopok">
-            <button class="minusovka">
-                <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line></svg>
-            </button>
-            <input type="text" value="1" size="2" class="quantity" data-max-count="20" />
-            <button class="plyusovka">
-                <svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
-            </button>
+        <div class="btns">
+            <button class="btnn minus">-</button>
+            <p id="counter50">0</p>
+            <button class="btnn plus">+</button>
         </div>
 
     </div>
     <div class="filterDiv xylinet">
         <img src="src/xylinetcoldgrapefruit.png" alt="">
-        <button class="btn">Добавить в корзину</button>
-
+        <div class="btns">
+            <button class="btnn minus">-</button>
+            <p id="counter50">0</p>
+            <button class="btnn plus">+</button>
+        </div>
     </div>
     <div class="filterDiv achonet">
         <img src="src/xylinetcoldgrapefruit.png" alt="">
-        <button class="btn">Добавить в корзину</button>
-
+        <div class="btns">
+            <button class="btnn minus">-</button>
+            <p id="counter50">0</p>
+            <button class="btnn plus">+</button>
+        </div>
     </div>
     <div class="filterDiv achonet">
         <img src="src/xylinetcoldgrapefruit.png" alt="">
-        <button class="btn">Добавить в корзину</button>
-
+        <div class="btns">
+            <button class="btnn minus">-</button>
+            <p id="counter50">0</p>
+            <button class="btnn plus">+</button>
+        </div>
     </div>
     <div class="filterDiv achonet">
         <img src="src/xylinecoldananac.png" alt="">
-        <button class="btn">Добавить в корзину</button>
-
+        <div class="btns">
+            <button class="btnn minus">-</button>
+            <p id="counter50">0</p>
+            <button class="btnn plus">+</button>
+        </div>
     </div>
     <div class="filterDiv ma">
         <img src="src/xylinecoldananac.png" alt="">
-        <button class="btn">Добавить в корзину</button>
-
+        <div class="btns">
+            <button class="btnn minus">-</button>
+            <p id="counter50">0</p>
+            <button class="btnn plus">+</button>
+        </div>
     </div>
     <div class="filterDiv ma">
         <img src="src/xylinecoldananac.png" alt="">
-        <button class="btn">Добавить в корзину</button>
-
+        <div class="btns">
+            <button class="btnn minus">-</button>
+            <p id="counter50">0</p>
+            <button class="btnn plus">+</button>
+        </div>
     </div>
     <div class="filterDiv ma">
         <img src="src/xylinecoldananac.png" alt="">
-        <button class="btn">Добавить в корзину</button>
-
+        <div class="btns">
+            <button class="btnn minus">-</button>
+            <p id="counter50">0</p>
+            <button class="btnn plus">+</button>
+        </div>
     </div>
     <div class="filterDiv achonet ">
         <img src="src/xylinecoldananac.png" alt="">
-        <button class="btn">Добавить в корзину</button>
-
+        <div class="btns">
+            <button class="btnn minus">-</button>
+            <p id="counter50">0</p>
+            <button class="btnn plus">+</button>
+        </div>
     </div>
     <div class="filterDiv titans">
         <img src="src/xylinecoldananac.png" alt="">
-        <button class="btn">Добавить в корзину</button>
-
+        <div class="btns">
+            <button class="btnn minus">-</button>
+            <p id="counter50">0</p>
+            <button class="btnn plus">+</button>
+        </div>
     </div>
     <div class="filterDiv titans">
         <img src="src/xylinecoldananac.png" alt="">
-        <button class="btn">Добавить в корзину</button>
-
+        <div class="btns">
+            <button class="btnn minus">-</button>
+            <p id="counter50">0</p>
+            <button class="btnn plus">+</button>
+        </div>
     </div>
     <div class="filterDiv titans">
         <img src="src/xylinecoldananac.png" alt="">
-        <button class="btn">Добавить в корзину</button>
-
+        <div class="btns">
+            <button class="btnn minus">-</button>
+            <p id="counter50">0</p>
+            <button class="btnn plus">+</button>
+        </div>
     </div>
     </div>
 </div>
