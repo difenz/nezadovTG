@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- Control buttons -->
+<div id="myBtnContainer">
+    <button class="btn1 active" onclick="filterSelection('all')">ВСЕ</button>
+    <button class="btn1" onclick="filterSelection('xylinet')">XYLINET?</button>
+    <button class="btn1" onclick="filterSelection('achonet')">АЧОНЕТ</button>
+    <button class="btn1" onclick="filterSelection('ma')">МА</button>
+    <button class="btn1" onclick="filterSelection('titans')">ЯРОСТЬ ТИТАНОВ</button>
+</div>
+
+<!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+<div class="container">
+    <div class="blocks">
+    <div class="filterDiv xylinet">
+        <img src="src/xylinecoldananac.png" alt="">
+        <button class="btnn minus">-</button>
+        <b id="counter50">0</b>
+        <button class="btnn plus">+</button>
+    </div>
+    <div class="filterDiv xylinet">
+        <img src="src/xylinecoldcherrylime.png" alt="">
+        <div class="agormleniye_kunopok">
+            <button class="minusovka">
+                <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            </button>
+            <input type="text" value="1" size="2" class="quantity" data-max-count="20" />
+            <button class="plyusovka">
+                <svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            </button>
+        </div>
+
+    </div>
+    <div class="filterDiv xylinet">
+        <img src="src/xylinetcoldgrapefruit.png" alt="">
+        <button class="btn">Добавить в корзину</button>
+
+    </div>
+    <div class="filterDiv achonet">
+        <img src="src/xylinetcoldgrapefruit.png" alt="">
+        <button class="btn">Добавить в корзину</button>
+
+    </div>
+    <div class="filterDiv achonet">
+        <img src="src/xylinetcoldgrapefruit.png" alt="">
+        <button class="btn">Добавить в корзину</button>
+
+    </div>
+    <div class="filterDiv achonet">
+        <img src="src/xylinecoldananac.png" alt="">
+        <button class="btn">Добавить в корзину</button>
+
+    </div>
+    <div class="filterDiv ma">
+        <img src="src/xylinecoldananac.png" alt="">
+        <button class="btn">Добавить в корзину</button>
+
+    </div>
+    <div class="filterDiv ma">
+        <img src="src/xylinecoldananac.png" alt="">
+        <button class="btn">Добавить в корзину</button>
+
+    </div>
+    <div class="filterDiv ma">
+        <img src="src/xylinecoldananac.png" alt="">
+        <button class="btn">Добавить в корзину</button>
+
+    </div>
+    <div class="filterDiv achonet ">
+        <img src="src/xylinecoldananac.png" alt="">
+        <button class="btn">Добавить в корзину</button>
+
+    </div>
+    <div class="filterDiv titans">
+        <img src="src/xylinecoldananac.png" alt="">
+        <button class="btn">Добавить в корзину</button>
+
+    </div>
+    <div class="filterDiv titans">
+        <img src="src/xylinecoldananac.png" alt="">
+        <button class="btn">Добавить в корзину</button>
+
+    </div>
+    <div class="filterDiv titans">
+        <img src="src/xylinecoldananac.png" alt="">
+        <button class="btn">Добавить в корзину</button>
+
+    </div>
+    </div>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
