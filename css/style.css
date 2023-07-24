@@ -1,6 +1,5 @@
 body {
     font-family: sans-serif, sans-serif;
-    background: #fff;
 }
 
 .logo {
@@ -23,7 +22,7 @@ body {
 
 
 .filterDiv {
-    margin: 0;
+    margin: 100px 0;
 }
 
 #myBtnContainer {
@@ -49,7 +48,7 @@ body {
 .blocks {
     margin-top: 20px;
     display: grid;
-    grid-gap: 30px;
+    grid-gap: 60px;
     grid-template-columns: 1fr 1fr;
 }
 
@@ -57,9 +56,10 @@ body {
     float: left;
     /*background-color: #2196F3;*/
     color: #ffffff;
-    width: 100px;
-    line-height: 50px;
+    width: 200px;
+    line-height: 0;
     text-align: center;
+    align-items: center;
     margin: 2px;
     display: none; /* Hidden by default */
 }
@@ -81,11 +81,12 @@ body {
 }
 
 .btns {
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
 }
 
 .btnn {
@@ -137,4 +138,26 @@ img {
     background: none;
     cursor: pointer;
     transition: all 0.3s ease;
+}
+
+.block__title {
+    color: #141414;
+    align-items: center;
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+
+.pre-title {
+    margin: 30px 0 0 0;
+    margin-bottom: -10px;
+    font-size: 12px;
+    opacity: 50%;
+}
+
+.hard {
+    color: orangered;
+    font-weight: 500;
 }
